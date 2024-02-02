@@ -32,7 +32,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 	 		return y;
 	 	}
 	 	
-	    //@Test
+	    @Test
 	    void setPoint() {
 
 	        // Setup
@@ -49,7 +49,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 	        assertEquals(expectedY, y);
 	    }
 
-	    //@Test
+	    @Test
 	    void shiftX() {
 
 	        // Setup
@@ -65,7 +65,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 	    }
 
-	    //@Test
+	    @Test
 	    void shiftY() {
 
 	        // Setup
@@ -80,7 +80,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 	        assertEquals(expectedY, y);
 	    }
 
-	   // @Test
+	   @Test
 	    void distance() {
 
 	        // Setup
@@ -96,7 +96,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 	        assertEquals(expectedDistance, distance);
 	    }
 
-	    //@Test
+	    @Test
 	    void rotate() {
 
 	        // Setup
@@ -113,5 +113,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 	        assertEquals(expectedX, x);
 	        assertEquals(expectedY, y);
 	    }
+	    d
+	    public String toString(){
+			String string = ("{x="+this.x+", y="+this.y+"}");
+			return string;
+		}
 	}
 
