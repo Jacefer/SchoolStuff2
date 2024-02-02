@@ -113,7 +113,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 	        assertEquals(expectedX, x);
 	        assertEquals(expectedY, y);
 	    }
-	    d
+	    
 	    public String toString(){
 			String string = ("{x="+this.x+", y="+this.y+"}");
 			return string;
